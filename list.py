@@ -1,5 +1,5 @@
 # List is a collection of items in a particular order
-'''
+
 countries = []
 print(type(countries))
 states = ()
@@ -79,7 +79,7 @@ country1, country2,country3, = countries[0:]
 print(country1)
 print(country2)
 print(country3)
-'''
+
 accounts = [
  ["1001", "joy", "savings", 1500],
  ["1002", "david", "current", 2000],
