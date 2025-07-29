@@ -1,5 +1,5 @@
 # List is a collection of items in a particular order
-
+'''
 countries = []
 print(type(countries))
 states = ()
@@ -68,7 +68,7 @@ print(playlist)
 
 playlist.insert(0, "intro")
 print(playlist)
-
+'''
 #unpacking  a list
 countries = ["spain", "malawi", "iran", "usa"]
 del countries[0:1]
@@ -98,6 +98,18 @@ names, accountTypes = accounts [0][1:3]
 print(names)
 print(accountTypes)
 
+numbers = [1,2,3]
+print(numbers[100-98])
+print(numbers[0**100])
+ 
+# calculator with a history
+history = []
+firstNumber = float(input("enter first number:\n>>"))
+secondNumber = float(input("enter second number:\n>>"))
+total = firstNumber + secondNumber
+result = f"{firstNumber} + {secondNumber} = {total}"
+history.append(result)
+print(result)
 
 
 
